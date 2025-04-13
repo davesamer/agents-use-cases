@@ -86,14 +86,6 @@ finance_agent = Agent(
 
 
 
-finance_agent.print_response(
-    dedent("""\
-    Welche Informationen hast du zu den 3 Banken der 3BankenGruppe (Oberbank, BTV, BKS). Aktuenkurs der letzen 12 Monate
-    """),  # noqa: E501
-    stream=True,
-)
-
-
 '''
 
 finance_agent.print_response(
